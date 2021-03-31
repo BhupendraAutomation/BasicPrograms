@@ -10,7 +10,7 @@ public class Starpattern {
 		
 		int[] arr=new int[] {1,5,3,7,32,545,5,9,32};
 		
-		for(int k=0; k<arr.length;k++)////Duplicate Integers from array
+		for(int k=0; k<arr.length;k++)////Duplicate Integers from array  
 		{
 			for(j=k+1; j<arr.length;j++)
 			{
