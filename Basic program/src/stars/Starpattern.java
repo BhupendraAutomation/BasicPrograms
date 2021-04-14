@@ -5,6 +5,7 @@ public class Starpattern {
 	public static void main(String[] args) {
 		
 		int i=0,j=0,n=4;
+		int b=0;
 		
 		String str="Software1 Testing2";
 		
@@ -60,6 +61,8 @@ public class Starpattern {
 			
 		}
 		
+			
+		
 		for(char c: str.toCharArray())
 		{
 			i++;
@@ -70,6 +73,7 @@ public class Starpattern {
 		
 		System.out.print(str);
 		
+
 
 	}
 

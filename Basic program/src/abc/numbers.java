@@ -23,7 +23,6 @@ public class numbers {
 		int num=0;
 		int letter=0;
 		int space=0;
-				
 		
 		for(int i=0; i< a.length(); i++)
 		{
@@ -35,7 +34,9 @@ public class numbers {
 		    else if(Character.isDigit(ch[i]))
 		    {
 			num ++;
+			
 		     }
+			
 			
 		    else if(Character.isSpaceChar(ch[i]))
 		    {
